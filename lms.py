@@ -8,7 +8,7 @@ driver.get("https://karnatakalms.com/home")
 input=driver.find_element_by_xpath('//*[@id="homebody"]/div[2]/div/button[2]').click()
 
 input=driver.find_element_by_xpath('//*[@id="userid"]')
-input.send_keys('ug1950228') #enter your user-id
+input.send_keys('ug1......') #enter your user-id
 
 input=driver.find_element_by_xpath('//*[@id="password"]')
 input.send_keys('dontknow') #enter your password
