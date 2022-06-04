@@ -11,7 +11,7 @@ input=driver.find_element_by_xpath('//*[@id="userid"]')
 input.send_keys('ug1950228') #enter your user-id
 
 input=driver.find_element_by_xpath('//*[@id="password"]')
-input.send_keys('Yashu1@#$%') #enter your password
+input.send_keys('dontknow') #enter your password
 
 time.sleep(2)
 
