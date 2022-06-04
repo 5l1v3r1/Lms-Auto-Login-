@@ -16,7 +16,7 @@ input.send_keys('Yashu1@#$%') #enter your password
 time.sleep(2)
 
 dropdown = Select(driver.find_element_by_name("OrgCodeDrop"))
-dropdown.select_by_value("TU") #I enter tumkur university value select your university value
+dropdown.select_by_value("TU") #I enter tumkur university value select your university value👇
 
 #Bangalore University-"BUB"
 #Bengaluru City University-"BCU"
