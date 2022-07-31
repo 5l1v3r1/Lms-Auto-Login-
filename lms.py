@@ -39,7 +39,9 @@ dropdown.select_by_value("TU") #I enter tumkur university value select your univ
 
 input=driver.find_element_by_xpath('/html/body/app-root/app-layout-full/div[1]/main/div/app-login/div/div/div/div/div[2]/div/div[1]/form/div[4]/div/button').click()
 
-time.sleep(15)
+time.sleep(5)
+
+driver.close()
 
 
 
